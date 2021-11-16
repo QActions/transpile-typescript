@@ -1,0 +1,10 @@
+name: "Transpile typescript"
+description: "Builds the dependecies"
+runs:
+  using: composite
+  steps:
+    - name: Transpile typescript
+      run: |
+        yarn
+        yarn --production
+      shell: sh
