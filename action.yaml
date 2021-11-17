@@ -7,4 +7,4 @@ runs:
       run: |
         yarn
         yarn --production
-      shell: sh
+      shell: bash
