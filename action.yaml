@@ -6,5 +6,6 @@ runs:
     - name: Transpile typescript
       run: |
         yarn
+        yarn build
         yarn --production
       shell: bash
